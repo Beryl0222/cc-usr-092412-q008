@@ -2,8 +2,12 @@
   "event_id": "092108-012-sample-001",
   "event_type": "PROFILE_REGISTERED",
   "aggregate_type": "nominee_profile",
-  "aggregate_id": "clinician_honor_contribution-001",
+  "aggregate_id": "nominee-chen-zhuren",
   "occurred_at": "2026-09-20T18:00:00+08:00",
   "version": 1,
-  "summary": "登记医者荣誉贡献档案的首条领域记录"
+  "summary": "登记医者荣誉贡献档案的首条领域记录",
+  "payload": {
+    "name": "陈主任",
+    "organization": "心外科"
+  }
 }

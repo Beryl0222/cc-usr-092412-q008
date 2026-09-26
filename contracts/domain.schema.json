@@ -9,7 +9,8 @@
     "aggregate_id",
     "occurred_at",
     "version",
-    "summary"
+    "summary",
+    "payload"
   ],
   "properties": {
     "event_id": {
@@ -22,8 +23,22 @@
         "PROFILE_REGISTERED",
         "CONTRIBUTION_ATTESTED",
         "CONSENT_GRANTED",
+        "CONSENT_WITHDRAWN",
         "STORY_RELEASED",
-        "ATTRIBUTION_CORRECTED"
+        "ATTRIBUTION_CORRECTED",
+        "NAME_MATCH_SUGGESTED",
+        "FACT_CONFIRMED",
+        "OVERLAP_RESOLVED",
+        "OMISSION_ADDED",
+        "OBJECTION_FILED",
+        "OBJECTION_RESOLVED",
+        "CONSENT_VERSION_FROZEN",
+        "ROSTER_SIGNING_HELD",
+        "ROSTER_EFFECTIVE",
+        "MATERIAL_REPLACED",
+        "MATERIAL_CORRECTED",
+        "MATERIAL_WITHDRAWN",
+        "PUBLIC_NOTICE_PUBLISHED"
       ]
     },
     "aggregate_type": {
@@ -32,7 +47,9 @@
         "nominee_profile",
         "contribution_record",
         "consent_grant",
-        "public_story"
+        "public_story",
+        "honor_case",
+        "honor_roster"
       ]
     },
     "aggregate_id": {
@@ -50,6 +67,14 @@
     "summary": {
       "type": "string",
       "minLength": 1
+    },
+    "payload": {
+      "type": "object",
+      "description": "事件专属内容。CONTRIBUTION_ATTESTED 必须携带 work_fact、credential_at_time、public_evidence 三项锚点；ROSTER_EFFECTIVE 携带 content_hash；材料处置事件携带 material_id、reason 与 mask_refs。"
+    },
+    "causation_id": {
+      "type": "string",
+      "description": "触发本事件的上游事件或回执标识，用于重放与待核追溯。"
     }
   },
   "additionalProperties": true

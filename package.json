@@ -6,6 +6,7 @@
   "description": "领域事件基础校验",
   "scripts": {
     "test": "node --test",
-    "build": "node --check src/validator.js"
+    "build": "node --check src/validator.js && node --check src/honor-case.js && node --check scripts/build-sample.mjs",
+    "build:sample": "node scripts/build-sample.mjs"
   }
 }

@@ -1,0 +1,393 @@
+[
+  {
+    "event_id": "evt-attest-c-surgery-001",
+    "event_type": "CONTRIBUTION_ATTESTED",
+    "aggregate_type": "contribution_record",
+    "aggregate_id": "c-surgery-001",
+    "occurred_at": "2026-09-22T01:00:00.000Z",
+    "version": 1,
+    "summary": "CONTRIBUTION_ATTESTED",
+    "payload": {
+      "honor_case_id": "honor-2026-cardiac-team",
+      "person": {
+        "ref": "person-wang-zhudao",
+        "name": "王医生",
+        "role": "主刀"
+      },
+      "domain": "surgery",
+      "work_fact": {
+        "description": "完成高难度冠脉旁路移植主刀操作",
+        "patient_id": "P-7788"
+      },
+      "credential_at_time": {
+        "license": "外科执业证 S-2019-0455",
+        "valid_from": "2019-05-01",
+        "valid_to": "2028-05-01"
+      },
+      "public_evidence": [
+        {
+          "material_id": "e-opnote-001",
+          "requires_consent": null
+        },
+        "手术记录公开摘要-2026-017"
+      ]
+    }
+  },
+  {
+    "event_id": "evt-attest-c-dup-001",
+    "event_type": "CONTRIBUTION_ATTESTED",
+    "aggregate_type": "contribution_record",
+    "aggregate_id": "c-dup-001",
+    "occurred_at": "2026-09-22T01:01:00.000Z",
+    "version": 1,
+    "summary": "CONTRIBUTION_ATTESTED",
+    "payload": {
+      "honor_case_id": "honor-2026-cardiac-team",
+      "person": {
+        "ref": "person-wang-zhudao",
+        "name": "王医生",
+        "role": "主刀"
+      },
+      "domain": "surgery",
+      "work_fact": {
+        "description": "完成高难度冠脉旁路移植主刀操作",
+        "patient_id": "P-7788"
+      },
+      "credential_at_time": {
+        "license": "外科执业证 S-2019-0455",
+        "valid_from": "2019-05-01",
+        "valid_to": "2028-05-01"
+      },
+      "public_evidence": [
+        {
+          "material_id": "e-opnote-dup",
+          "requires_consent": null
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-attest-c-nursing-001",
+    "event_type": "CONTRIBUTION_ATTESTED",
+    "aggregate_type": "contribution_record",
+    "aggregate_id": "c-nursing-001",
+    "occurred_at": "2026-09-22T01:02:00.000Z",
+    "version": 1,
+    "summary": "CONTRIBUTION_ATTESTED",
+    "payload": {
+      "honor_case_id": "honor-2026-cardiac-team",
+      "person": {
+        "ref": "person-lin-hushi",
+        "name": "林护士",
+        "role": "围术期护理"
+      },
+      "domain": "nursing",
+      "work_fact": {
+        "description": "负责术后 72 小时监护与并发症预警处置"
+      },
+      "credential_at_time": {
+        "license": "护士执业证 N-2020-1188",
+        "valid_from": "2020-03-01",
+        "valid_to": "2027-03-01"
+      },
+      "public_evidence": [
+        {
+          "material_id": "e-care-001",
+          "requires_consent": null
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-attest-c-referral-001",
+    "event_type": "CONTRIBUTION_ATTESTED",
+    "aggregate_type": "contribution_record",
+    "aggregate_id": "c-referral-001",
+    "occurred_at": "2026-09-22T01:03:00.000Z",
+    "version": 1,
+    "summary": "CONTRIBUTION_ATTESTED",
+    "payload": {
+      "honor_case_id": "honor-2026-cardiac-team",
+      "person": {
+        "ref": "person-zhangwei-referral",
+        "name": "张伟",
+        "role": "基层转诊"
+      },
+      "domain": "referral",
+      "work_fact": {
+        "description": "及时完成基层识别、影像初筛与上转衔接"
+      },
+      "credential_at_time": {
+        "license": "全科医师证 G-2018-0712",
+        "valid_from": "2018-09-01",
+        "valid_to": "2027-09-01"
+      },
+      "public_evidence": [
+        {
+          "material_id": "e-referral-001",
+          "requires_consent": null
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-attest-c-research-001",
+    "event_type": "CONTRIBUTION_ATTESTED",
+    "aggregate_type": "contribution_record",
+    "aggregate_id": "c-research-001",
+    "occurred_at": "2026-09-22T01:04:00.000Z",
+    "version": 1,
+    "summary": "CONTRIBUTION_ATTESTED",
+    "payload": {
+      "honor_case_id": "honor-2026-cardiac-team",
+      "person": {
+        "ref": "person-zhangwei-research",
+        "name": "张伟",
+        "role": "研究数据支持"
+      },
+      "domain": "research",
+      "work_fact": {
+        "description": "提供围术期随访数据集与统计分析",
+        "patient_id": "P-7788"
+      },
+      "credential_at_time": {
+        "license": "研究伦理备案 R-2025-033",
+        "valid_from": "2025-01-01",
+        "valid_to": "2027-01-01"
+      },
+      "public_evidence": [
+        {
+          "material_id": "e-dataset-001",
+          "requires_consent": "consent-7788"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-attest-c-anesthesia-001",
+    "event_type": "CONTRIBUTION_ATTESTED",
+    "aggregate_type": "contribution_record",
+    "aggregate_id": "c-anesthesia-001",
+    "occurred_at": "2026-09-22T01:05:00.000Z",
+    "version": 1,
+    "summary": "CONTRIBUTION_ATTESTED",
+    "payload": {
+      "honor_case_id": "honor-2026-cardiac-team",
+      "person": {
+        "ref": "person-zhao-mazui",
+        "name": "赵医生",
+        "role": "麻醉"
+      },
+      "domain": "anesthesia",
+      "work_fact": {
+        "description": "制定并实施术中麻醉与循环管理方案"
+      },
+      "credential_at_time": {
+        "license": "麻醉执业证 A-2017-0066",
+        "valid_from": "2017-06-01",
+        "valid_to": "2028-06-01"
+      },
+      "public_evidence": [
+        {
+          "material_id": "e-anesthesia-001",
+          "requires_consent": null
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-name-match-001",
+    "event_type": "NAME_MATCH_SUGGESTED",
+    "aggregate_type": "honor_case",
+    "aggregate_id": "honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:06:00.000Z",
+    "version": 1,
+    "summary": "NAME_MATCH_SUGGESTED",
+    "payload": {
+      "contribution_ids": [
+        "c-referral-001",
+        "c-research-001"
+      ],
+      "reason": "姓名同为张伟但人员标识不同，仅提示，待委员会人工核实"
+    }
+  },
+  {
+    "event_id": "evt-confirm-c-surgery-001",
+    "event_type": "FACT_CONFIRMED",
+    "aggregate_type": "honor_case",
+    "aggregate_id": "honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:07:00.000Z",
+    "version": 2,
+    "summary": "FACT_CONFIRMED",
+    "payload": {
+      "contribution_id": "c-surgery-001",
+      "domain": "surgery",
+      "confirmed_by": "外科代表 孙主任"
+    }
+  },
+  {
+    "event_id": "evt-confirm-c-nursing-001",
+    "event_type": "FACT_CONFIRMED",
+    "aggregate_type": "honor_case",
+    "aggregate_id": "honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:08:00.000Z",
+    "version": 3,
+    "summary": "FACT_CONFIRMED",
+    "payload": {
+      "contribution_id": "c-nursing-001",
+      "domain": "nursing",
+      "confirmed_by": "护理代表 周护士长"
+    }
+  },
+  {
+    "event_id": "evt-confirm-c-referral-001",
+    "event_type": "FACT_CONFIRMED",
+    "aggregate_type": "honor_case",
+    "aggregate_id": "honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:09:00.000Z",
+    "version": 4,
+    "summary": "FACT_CONFIRMED",
+    "payload": {
+      "contribution_id": "c-referral-001",
+      "domain": "referral",
+      "confirmed_by": "转诊代表 李科长"
+    }
+  },
+  {
+    "event_id": "evt-confirm-c-research-001",
+    "event_type": "FACT_CONFIRMED",
+    "aggregate_type": "honor_case",
+    "aggregate_id": "honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:10:00.000Z",
+    "version": 5,
+    "summary": "FACT_CONFIRMED",
+    "payload": {
+      "contribution_id": "c-research-001",
+      "domain": "research",
+      "confirmed_by": "研究代表 郑教授"
+    }
+  },
+  {
+    "event_id": "evt-overlap-001",
+    "event_type": "OVERLAP_RESOLVED",
+    "aggregate_type": "honor_case",
+    "aggregate_id": "honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:11:00.000Z",
+    "version": 6,
+    "summary": "OVERLAP_RESOLVED",
+    "payload": {
+      "contribution_ids": [
+        "c-dup-001",
+        "c-surgery-001"
+      ],
+      "decision": {
+        "kept": "c-surgery-001",
+        "note": "同一台手术的重复报送，并入主刀贡献"
+      }
+    }
+  },
+  {
+    "event_id": "evt-omission-001",
+    "event_type": "OMISSION_ADDED",
+    "aggregate_type": "honor_case",
+    "aggregate_id": "honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:12:00.000Z",
+    "version": 7,
+    "summary": "OMISSION_ADDED",
+    "payload": {
+      "contribution_id": "c-anesthesia-001",
+      "note": "初报名单遗漏麻醉，委员会依事实补入"
+    }
+  },
+  {
+    "event_id": "evt-confirm-c-anesthesia-001",
+    "event_type": "FACT_CONFIRMED",
+    "aggregate_type": "honor_case",
+    "aggregate_id": "honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:13:00.000Z",
+    "version": 8,
+    "summary": "FACT_CONFIRMED",
+    "payload": {
+      "contribution_id": "c-anesthesia-001",
+      "domain": "anesthesia",
+      "confirmed_by": "麻醉代表 钱主任"
+    }
+  },
+  {
+    "event_id": "evt-consent-granted-001",
+    "event_type": "CONSENT_GRANTED",
+    "aggregate_type": "consent_grant",
+    "aggregate_id": "consent-7788",
+    "occurred_at": "2026-09-22T01:14:00.000Z",
+    "version": 1,
+    "summary": "CONSENT_GRANTED",
+    "payload": {
+      "patient_id": "P-7788",
+      "consent_version": "v1",
+      "scope": {
+        "case_display": true,
+        "dataset_publication": true,
+        "deidentified_only": false
+      }
+    }
+  },
+  {
+    "event_id": "evt-consent-frozen-001",
+    "event_type": "CONSENT_VERSION_FROZEN",
+    "aggregate_type": "honor_case",
+    "aggregate_id": "honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:15:00.000Z",
+    "version": 9,
+    "summary": "CONSENT_VERSION_FROZEN",
+    "payload": {
+      "consent_grant_id": "consent-7788",
+      "consent_version": "v1",
+      "scope": {
+        "case_display": true,
+        "dataset_publication": true,
+        "deidentified_only": false
+      }
+    }
+  },
+  {
+    "event_id": "evt-story-released-001",
+    "event_type": "STORY_RELEASED",
+    "aggregate_type": "public_story",
+    "aggregate_id": "story-7788",
+    "occurred_at": "2026-09-22T01:16:00.000Z",
+    "version": 1,
+    "summary": "STORY_RELEASED",
+    "payload": {
+      "material_id": "e-dataset-001",
+      "contribution_id": "c-research-001",
+      "consent_version": "v1",
+      "requires_consent": "consent-7788",
+      "mask_refs": [
+        {
+          "material_id": "e-dataset-001"
+        }
+      ]
+    }
+  },
+  {
+    "event_id": "evt-roster-effective-001",
+    "event_type": "ROSTER_EFFECTIVE",
+    "aggregate_type": "honor_roster",
+    "aggregate_id": "roster-honor-2026-cardiac-team",
+    "occurred_at": "2026-09-22T01:17:00.000Z",
+    "version": 1,
+    "summary": "ROSTER_EFFECTIVE",
+    "payload": {
+      "honor_case_id": "honor-2026-cardiac-team",
+      "receipt_id": "receipt-sign-2026-001",
+      "content_hash": "dac395c47696002bcbda7353e6f41e48a89c68d5f8fc0c3206e6306b087af475",
+      "entry_ids": [
+        "c-anesthesia-001",
+        "c-nursing-001",
+        "c-referral-001",
+        "c-research-001",
+        "c-surgery-001"
+      ]
+    }
+  }
+]
